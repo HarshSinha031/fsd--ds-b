@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+</head>
+<body>
+    <script>
+        const mypromise = new Promise((resolve, reject) => {
+            reject("Promise rejected");
+        });
+            mypromise.then((msg) => {
+                console.log(msg);
+                })
+
+                .catch((err) => {
+                    console.log(err);
+                });
+    </script>
+</body>
+</html>
